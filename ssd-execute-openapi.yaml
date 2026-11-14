@@ -13,7 +13,6 @@ info:
   license:
     name: BSD-3-Clause
     url: https://github.com/jupyter-server/server-side-documents/blob/main/LICENSE
-security: []
 servers:
   - url: /
 tags:
