@@ -19,7 +19,32 @@ myst_enable_extensions = [
 ]
 
 exclude_patterns = ["_build"]
-html_theme = "alabaster"
+
+# Same theme and options as the jupyter_server documentation.
+html_theme = "pydata_sphinx_theme"
+# The default "<project> documentation" overlaps the navbar links.
+html_title = project
+# All pages are top-level (shown in the navbar), so the section navigation
+# sidebar would be empty. Remove this once pages have subpages.
+html_sidebars = {"**": []}
+html_theme_options = {
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/jupyter-server/server-side-documents",
+            "icon": "fa-brands fa-github",
+        }
+    ],
+    "navigation_with_keys": False,
+    "use_edit_page_button": True,
+}
+# Used by the "Edit on GitHub" button.
+html_context = {
+    "github_user": "jupyter-server",
+    "github_repo": "server-side-documents",
+    "github_version": "main",
+    "doc_path": "docs",
+}
 
 # Use the newer renderer: it lists request body fields with types and
 # "required". The default ("httpdomain:old") does not.
@@ -35,3 +60,15 @@ myst_substitutions = {
     "api_version": _spec["info"]["version"],
     "api_description": _spec["info"].get("description", ""),
 }
+
+
+def setup(app):
+    # Enable Plausible.io stats, with the same configuration as the
+    # jupyter-ai and mybinder.org documentation.
+    app.add_js_file(
+        "https://plausible.io/js/pa-UHxbx3cCjgiU99DP3Pn5X.js", loading_method="async"
+    )
+    app.add_js_file(
+        filename=None,
+        body="window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init({hashBasedRouting:true})",
+    )

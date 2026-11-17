@@ -25,3 +25,20 @@ Specifically, we will:
 Initial contributors will include @jtpio, @davidbrochart, @sylvaincorlay, @zsailer, @minrk, @jarrodmillman, @jasongrout, and @krassowski, with contributions spanning design, implementation, testing, review, and coordination. Additional contributors are welcome.
 
 Detailed technical discussions and decisions will proceed through the public JEP and the relevant projects' public review processes.
+
+## Documentation
+
+The documentation is a Sphinx site written in Markdown (MyST), with the API
+reference rendered from `ssd-execute-openapi.yaml`. It is built with
+[pixi](https://pixi.sh):
+
+```bash
+pixi run docs
+```
+
+The site is written to `docs/_build/html`. To lint the OpenAPI spec with
+Redocly:
+
+```bash
+pixi run lint
+```
