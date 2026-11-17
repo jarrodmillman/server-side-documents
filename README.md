@@ -22,6 +22,6 @@ Specifically, we will:
 - Report progress and solicit feedback at the weekly Jupyter Contributor Meeting.
 - Welcome additional contributors and revise the plan in response to community feedback.
 
-Initial contributors will include @jtpio, @davidbrochart, @sylvaincorlay, @zsailer, @minrk, @jarrodmillman, and @jasongrout, with contributions spanning design, implementation, testing, review, and coordination. Additional contributors are welcome.
+Initial contributors will include @jtpio, @davidbrochart, @sylvaincorlay, @zsailer, @minrk, @jarrodmillman, @jasongrout, and @krassowski, with contributions spanning design, implementation, testing, review, and coordination. Additional contributors are welcome.
 
 Detailed technical discussions and decisions will proceed through the public JEP and the relevant projects' public review processes.
