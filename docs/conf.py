@@ -4,6 +4,7 @@ author = 'Jupyter Development Team'
 
 extensions = [
   "myst_parser",
+  "sphinxcontrib.httpdomain",
   "sphinxcontrib.openapi",
 ]
 
