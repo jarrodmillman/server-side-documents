@@ -2,20 +2,20 @@ from pathlib import Path
 
 import yaml
 
-project = 'Server-side Documents'
-copyright = '2026, Jupyter Development Team'
-author = 'Jupyter Development Team'
+project = "Server-side Documents"
+copyright = "2026, Jupyter Development Team"
+author = "Jupyter Development Team"
 
 extensions = [
-  "myst_parser",
-  "sphinxcontrib.httpdomain",
-  "sphinxcontrib.openapi",
+    "myst_parser",
+    "sphinxcontrib.httpdomain",
+    "sphinxcontrib.openapi",
 ]
 
 myst_enable_extensions = [
-  "attrs_inline",
-  "colon_fence",
-  "substitution",
+    "attrs_inline",
+    "colon_fence",
+    "substitution",
 ]
 
 exclude_patterns = ["_build"]
