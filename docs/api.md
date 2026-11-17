@@ -2,9 +2,10 @@
 
 See [api](../execute-api.html){.external}
 
+{{ api_description }}
+
 ```{eval-rst}
 .. openapi:: ../ssd-execute-openapi.yaml
-   :examples:
-   :group:
-   :format: markdown
+   :markup: commonmark
+   :generate-examples-from-schemas:
 ```
