@@ -60,8 +60,6 @@ paths:
         enqueued immediately in arrival order.
 
         Authentication is required (Jupyter Server token or cookie).
-        Authorization uses the `@authorized` decorator with resource
-        `executions`; Jupyter Server maps `POST` to the `write` action.
       tags:
         - executions
       requestBody:
