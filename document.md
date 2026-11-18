@@ -20,4 +20,5 @@ For each executed code cell the server writes:
 | Outputs cleared              | When the request is handled                         | At enqueue                                                           |
 | `execution_count` and `idle` | From `execute_reply`, same transaction              | Written together at completion                                       |
 | Output messages handled      | `stream`, `display_data`, `execute_result`, `error` | Those plus `update_display_data` and `clear_output` including `wait` |
->>>>>>> 9e57655 (Add basic document contract)
+
+> > > > > > > 9e57655 (Add basic document contract)
