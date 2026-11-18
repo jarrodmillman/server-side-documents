@@ -1,6 +1,6 @@
 openapi: 3.1.0
 info:
-  title: server-side documents execution API
+  title: server-side execution API
   description: |
     Server-side cell execution endpoint
 

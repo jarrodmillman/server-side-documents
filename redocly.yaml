@@ -8,7 +8,7 @@ extends:
 
 apis:
   execute:
-    root: ./ssd-execute-openapi.yaml
+    root: ./execute-api.yaml
 
 # custom rules
 # https://redocly.com/docs/cli/rules/configurable-rules/

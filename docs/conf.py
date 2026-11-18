@@ -53,7 +53,7 @@ openapi_default_renderer = "httpdomain"
 # sphinxcontrib-openapi renders paths only, not the spec's `info` block, so
 # expose the description for use as {{ api_description }} in Markdown pages.
 _spec = yaml.safe_load(
-    (Path(__file__).parent.parent / "ssd-execute-openapi.yaml").read_text()
+    (Path(__file__).parent.parent / "execute-api.yaml").read_text()
 )
 myst_substitutions = {
     "api_title": _spec["info"]["title"],

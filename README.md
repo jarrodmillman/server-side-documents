@@ -22,14 +22,15 @@ Specifically, we will:
 - Report progress and solicit feedback at the weekly Jupyter Contributor Meeting.
 - Welcome additional contributors and revise the plan in response to community feedback.
 
-Initial contributors will include @jtpio, @davidbrochart, @sylvaincorlay, @zsailer, @minrk, @jarrodmillman, @jasongrout, and @krassowski, with contributions spanning design, implementation, testing, review, and coordination. Additional contributors are welcome.
+Initial contributors will include [@jtpio](https://github.com/jtpio), [@davidbrochart](https://github.com/davidbrochart), [@sylvaincorlay](https://github.com/sylvaincorlay), [@zsailer](https://github.com/zsailer), [@minrk](https://github.com/minrk), [@jarrodmillman](https://github.com/jarrodmillman), [@jasongrout](https://github.com/jasongrout), and [@krassowski](https://github.com/krassowski), with contributions spanning design, implementation, testing, review, and coordination.
+Additional contributors are welcome.
 
 Detailed technical discussions and decisions will proceed through the public JEP and the relevant projects' public review processes.
 
 ## Documentation
 
 The documentation is a Sphinx site written in Markdown (MyST), with the API
-reference rendered from `ssd-execute-openapi.yaml`. It is built with
+reference rendered from `execute-api.yaml`. It is built with
 [pixi](https://pixi.sh):
 
 ```bash
