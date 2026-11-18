@@ -6,5 +6,6 @@
 :hidden:
 :maxdepth: 2
 
-api
+Documents <document>
+API <api>
 ```
